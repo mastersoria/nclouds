@@ -22,9 +22,9 @@ Let's run redis in docker; let's pull the dockerfile: https://github.com/masters
  
   2. docker build -t node .
   
-  3. docker run -d --name node1 -p 8080 --link redis:redis node
+  3. docker run -d --name node1 -p 8080:8080 --link redis:redis node
   
-  4. docker run -d --name node2 -p 8181 --link redis:redis node
+  4. docker run -d --name node2 -p 8181:8080 --link redis:redis node
   
   
   
