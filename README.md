@@ -9,6 +9,9 @@ We are going to download node.js (2 node) and redis storage.
 Let run redis in docker:
   docker run -d --name redis -p 6379:6379 redis
 
-or we can deploy via a docker file:
+or we can deploy via a docker file: https://github.com/mastersoria/nclouds/blob/master/redis/Dockerfile 
+
+ cd redis
+ docker build -t redis .
 
 
