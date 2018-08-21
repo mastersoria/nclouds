@@ -12,6 +12,7 @@ Let run redis in docker:
 or we can deploy via a docker file: https://github.com/mastersoria/nclouds/blob/master/redis/Dockerfile 
 
  cd redis
+ 
  docker build -t redis .
 
 
